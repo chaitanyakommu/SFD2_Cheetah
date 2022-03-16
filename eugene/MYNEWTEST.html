@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my first program</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>FORM</h1>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+        <!-- Username -->
+        <label for="user">Username</label>
+        <input id="user" name="user" type="text" placeholder="Qwertymaster">
+
+        <br>
+        <br>
+        <!-- Password -->
+        <label for="pwd">Password</label>
+        <input id="pwd" name="pwd" type="password" placeholder="Abracadabra8&^%">
+
+        <br>
+        <br>
+        <!-- Colour -->
+        <label for="colour">Colour</label>
+        <input id="colour" name="colour" type="color">
+
+        <br>
+        <br>
+        <!-- Hobbies -->
+        <p><strong>Hobbies</strong></p>
+
+        <label for="cricket">Cricket</label>
+        <input id="cricket" name="hobby" type="checkbox" value="cricket">
+
+        <br>
+
+        <label for="coco">COCO</label>
+        <input id="coco" name="hobby" type="checkbox" value="coco">
+
+        <br>
+
+        <label for="reading-books">Reading Books</label>
+        <input id="reading-books" name="hobby" type="checkbox" value="reading-books">
+
+        <br>
+        <br>
+        <!-- Gender -->
+        <p><strong>Gender</strong></p>
+
+        <input id="male" name="gender" type="radio" value="male">
+        <label for="male">Male</label>
+
+
+        <input id="female" name="gender" type="radio" value="female">
+        <label for="female">Female</label>
+
+
+        <input id="prefer-not-to-say" name="gender" type="radio" value="prefer-not-to-say">
+        <label for="prefer-not-to-say">Prefer not to say</label>
+
+        <br>
+        <br>
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth</label>
+        <input id="dob" name="dob" type="date">
+
+        <br>
+        <br>
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="qwertymaster@asdf.com">
+
+        <br>
+        <br>
+        <!-- Phone -->
+        <label for="phone">Phone</label>
+        <input id="phone" name="phone" type="tel">
+
+        <br>
+        <br>
+        <!-- Country -->
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="usa">USA</option>
+            <option value="uae">UAE</option>
+            <option value="india">India</option>
+        </select>
+
+        <br>
+        <br>
+        <!-- Upload files -->
+        <p><strong>Upload Photo and Signature</strong></p>
+
+        <label for="photo">Photo</label>
+        <input id="photo" name="photo" type="file">
+
+        <label for="signature">Signature</label>
+        <input id="signature" name="signature" type="file">
+
+        <br>
+        <br>
+        <!-- About Yourself -->
+        <label for="about">About Yourself</label>
+
+        <br>
+
+        <textarea id="about" name="about-yourself" rows="8" cols="40"></textarea>
+
+        <br>
+        <br>
+        <!-- Submit -->
+        <p>Register</p>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+
+</html>
